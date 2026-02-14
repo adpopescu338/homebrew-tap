@@ -10,7 +10,7 @@ class RestSafeEnv < Formula
   def install
     source_dir = Dir.exist?("package") ? "package" : "."
     libexec.install Dir["#{source_dir}/*"]
-    (bin/"rse").write_exec_script libexec/"bin/rse.js"
+    bin.install_symlink libexec/"bin/rse.js" => "rse"
   end
 
   test do
