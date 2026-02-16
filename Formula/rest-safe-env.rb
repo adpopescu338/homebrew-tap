@@ -1,8 +1,8 @@
 class RestSafeEnv < Formula
   desc "Encrypt selected .env values at rest and unlock only with explicit local approval."
   homepage "https://github.com/adpopescu338/rest-safe-env"
-  url "https://registry.npmjs.org/rest-safe-env/-/rest-safe-env-0.1.0.tgz"
-  sha256 "c0f52cc320339af31c77ef95057f9a85f6eaeac531ec64a65b5c3eaf789dac1e"
+  url "https://registry.npmjs.org/rest-safe-env/-/rest-safe-env-0.2.1.tgz"
+  sha256 "7c66e1bbc2abde657e5bc393ce7efc6121476d598cfb6dcbae79b5dd92bb2cfe"
   license "MIT"
 
   depends_on "node"
